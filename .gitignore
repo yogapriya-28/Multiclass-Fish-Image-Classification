@@ -1,0 +1,21 @@
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter, Streamlit, and build folders
+.ipynb_checkpoints/
+.streamlit/
+build/
+dist/
+
